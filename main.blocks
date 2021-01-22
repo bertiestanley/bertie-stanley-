@@ -15,37 +15,37 @@
 . . 3 3 3 3 3 3 3 3 3 3 3 . . . 
 . . 3 3 3 3 3 3 3 3 3 3 3 . . . 
 . . 3 3 3 3 3 3 3 3 3 3 3 . . . 
-`</field></shadow></value><value name="kind"><shadow type="spritekind" id="P)tM#ufoJKeM?]C3Bu/$"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="WmRaY[(f$IWf$@^_LQBy"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="eoJ|Qd;l{D)~|`XI@V):"><field name="VAR" id=",6THHglB??eL.hqcAPnS">mySprite</field></block></value><value name="vx"><shadow type="math_number" id="t_wO#3Ds87ZM~gQFYpr]"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="vn(nL{i1|:J1,haSJ.L!"><field name="NUM">100</field></shadow></value><next><block type="tilemap_editor" id="A`uRCoPbU8%7{99!7*y#"><field name="tilemap">tiles.createTilemap(hex`2000200001010101010102010101010101010101010101010101010101010101010101010100000300000000000000000000000000000000000000000000000000000001010000030000030404040404030000000000000000000000000000000000000101000003000303000000000003000000000000000000000000000000000000010100000300000300040404040300000000000000000000000000000000000001010003030300030000000000030000000000000000000000000000000000000101000003000003040404040003000000000000000000000000000000000000010103000300030300000000000300000000000000000000000000000000000001010000030000030004040404030000000000000000000000000000000000000101000303030003000000000003000000000000000000000000000000000000010100000303000304040404000300000000000000000000000000000000000001010300030300030000000000030404040404040400000000000000000000000101000003030003000000000000000000000000000000000000000000000000010100030303000300000404040404040404030000000000000000000000000001010000030000040404040000000000000003000000000000000000000000000101030003000300000003000000000000000300000000000000000000000000010100000300040404040304040404030400030000000000000000000000000001010003030000000000000000000003000003000000000000000000000000000101000004040404040404030404000300000300000000000000000000000000010100000000000000000003000000030000030000000000000000000000000001010404040400000000000300040403000003000000000000000000000000000101000003040404040400030000000300000300000000000000000000000000010100000300000000000003000000000000030000000000000000000000000001010000030000040404040304040404040003000000000000000000000000000101000003000003000000030000000003000300000000000000000000000000010100000300000300030003000300000300000300000000000000000000000001010000030004030003000300030004030000030000000000000000000000000101000003000000000300030003000300000003000000000000000000000000010100000304040404040003000300030000000300000000000000000000000001010000030000000000000300030003000000030000000000000000000000000101000003000000000000000003000000000000000000000000000000000000010101010101010101010101010101010101010101010101010101010101010101`, img`
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="P)tM#ufoJKeM?]C3Bu/$"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="WmRaY[(f$IWf$@^_LQBy"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="eoJ|Qd;l{D)~|`XI@V):"><field name="VAR" id=",6THHglB??eL.hqcAPnS">mySprite</field></block></value><value name="vx"><shadow type="math_number" id="t_wO#3Ds87ZM~gQFYpr]"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="vn(nL{i1|:J1,haSJ.L!"><field name="NUM">100</field></shadow></value><next><block type="tilemap_editor" id="A`uRCoPbU8%7{99!7*y#"><field name="tilemap">tiles.createTilemap(hex`2000200001010101010102010101010101010101010101010101010101010101010101010600000300000000000000000300000000000000000000000000000000000001010000030000030004040404030000000000000000000000000000000000000101000003000303000000000003000000000000000000000000000000000000010100000300000300040404040300000000000000000000000000000000000001010003030300030000000000030000000000000000000000000000000000000101000003000003040404040003000000000000000000000000000000000000010103000300030300000000000300000000000000000000000000000000000001010000030000030004040404030000000000000000000000000000000000000101000303030003000000000003000000000000000000000000000000000000010100000300000304040404000300000000000000000000000000000000000001010300030003030000000000030404040404040400000000000000000000000101000003000003000000000000000000000000000000000000000000000000010100030303000300000404040404040404030000000000000000000000000001010000030000040404040000000000000003000000000000000000000000000101030003000300000003000000000000000300000000000000000000000000010100000300040404040304040404030400030000000000000000000000000001010003030000000000000000000003000003000000000000000000000000000101000004040404040404030404000300000300000000000000000000000000010100000000000000000003000000030000030000000000000000000000000001010404040400000000000300040403000003000000000000000000000000000101000003040404040400030000000300000300000000000000000000000000010100000300000000000003000000000000030000000000000000000000000001010000030000040404040304040404040003000000000000000000000000000101000003000003000000030000000003000300000000000000000000000000010100000300000300030003000300000300000300000000000000000000000001010000030004030003000300030004030000030000000000000000000000000101000003000000000300030003000300000003000000000000000000000000010100000304040404040003000300030000000300000000000000000000000001010000030000000000000300030003000000030000000000000000000000000101000003000000000000000003000000000000000000000000000000000000050101010101010101010101010101010101010101010101010101010101010101`, img`
 22222222222222222222222222222222
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
-2..............................2
+...2........2..................2
+2..2..2.22222..................2
+2..2.22.....2..................2
+2..2..2.22222..................2
+2.222.2.....2..................2
+2..2..22222.2..................2
+22.2.22.....2..................2
+2..2..2.22222..................2
+2.222.2.....2..................2
+2..2..22222.2..................2
+22.2.22.....22222222...........2
+2..2..2........................2
+2.222.2..222222222.............2
+2..2..2222.......2.............2
+22.2.2...2.......2.............2
+2..2.22222222222.2.............2
+2.22..........2..2.............2
+2..2222222222.2..2.............2
+2.........2...2..2.............2
+22222.....2.222..2.............2
+2..222222.2...2..2.............2
+2..2......2......2.............2
+2..2..2222222222.2.............2
+2..2..2...2....2.2.............2
+2..2..2.2.2.2..2..2............2
+2..2.22.2.2.2.22..2............2
+2..2....2.2.2.2...2............2
+2..222222.2.2.2...2............2
+2..2......2.2.2...2............2
+2..2........2...................
 22222222222222222222222222222222
-`, [myTiles.transparency16,sprites.dungeon.hazardLava1,sprites.dungeon.hazardLava0,sprites.vehicle.roadVertical,sprites.vehicle.roadHorizontal], TileScale.Sixteen)</field><next><block type="mapplaceonrandomtile" id="yLm^fcU2M4H!?M9vR8NH"><value name="sprite"><block type="variables_get" id="=hy#_T2theG~5^x-V`5v"><field name="VAR" id=",6THHglB??eL.hqcAPnS">mySprite</field></block></value><value name="tile"><shadow type="tileset_tile_picker" id="35Ifin3D7K2qGaF%ejOI"><field name="tile">sprites.dungeon.collectibleRedCrystal</field></shadow></value><next><block type="camerafollow" id="ufS~zNm:|0B2ExCJR+O,"><value name="sprite"><block type="variables_get" id="iQ:@w1%y6z:;MV12+$jf"><field name="VAR" id=",6THHglB??eL.hqcAPnS">mySprite</field></block></value><next><block type="gamecountdown" id="|k2z0K;*~JrL!jg;6N0Y"><value name="duration"><shadow type="math_number" id="g,#F*o.g52YWWT_GA3.s"><field name="NUM">10</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="spriteshittile" id="MSaN*ZWk{.Y`PS0Q^$!M" x="-30" y="530"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="1zQ/1bi7(tXLlz3JiXI_"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="0{jrr/-TS9V:w2$}ZaH)"><field name="MEMBER">Player</field></shadow></value><value name="tile"><shadow type="tileset_tile_picker" id=",cWBJ44a6RlxVDM_(3SC"><field name="tile">sprites.dungeon.chestOpen</field></shadow></value><value name="HANDLER_DRAG_PARAM_location"><shadow type="argument_reporter_custom" id="`:N1bY-c{y5%WzE7Xx+?"><mutation typename="tiles.Location"/><field name="VALUE">location</field></shadow></value><statement name="HANDLER"><block type="gameOver" id="Ci+BK@7Cf^~O!p2:#Ul="><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="win"><shadow type="toggleWinLose" id="R+{Sx8TEBZnYA`~K_0A{"><field name="win">true</field></shadow></value></block></statement></block></xml>
+`, [myTiles.transparency16,sprites.dungeon.hazardLava1,sprites.dungeon.hazardLava0,sprites.vehicle.roadVertical,sprites.vehicle.roadHorizontal,sprites.dungeon.chestClosed,sprites.dungeon.collectibleBlueCrystal], TileScale.Sixteen)</field><next><block type="mapplaceonrandomtile" id="yLm^fcU2M4H!?M9vR8NH"><value name="sprite"><block type="variables_get" id="=hy#_T2theG~5^x-V`5v"><field name="VAR" id=",6THHglB??eL.hqcAPnS">mySprite</field></block></value><value name="tile"><shadow type="tileset_tile_picker" id="35Ifin3D7K2qGaF%ejOI"><field name="tile">sprites.dungeon.collectibleBlueCrystal</field></shadow></value><next><block type="camerafollow" id="ufS~zNm:|0B2ExCJR+O,"><value name="sprite"><block type="variables_get" id="iQ:@w1%y6z:;MV12+$jf"><field name="VAR" id=",6THHglB??eL.hqcAPnS">mySprite</field></block></value><next><block type="gamecountdown" id="|k2z0K;*~JrL!jg;6N0Y"><value name="duration"><shadow type="math_number" id="g,#F*o.g52YWWT_GA3.s"><field name="NUM">60</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="spriteshittile" id="MSaN*ZWk{.Y`PS0Q^$!M" x="-30" y="530"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="1zQ/1bi7(tXLlz3JiXI_"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="0{jrr/-TS9V:w2$}ZaH)"><field name="MEMBER">Player</field></shadow></value><value name="tile"><shadow type="tileset_tile_picker" id=",cWBJ44a6RlxVDM_(3SC"><field name="tile">sprites.dungeon.chestClosed</field></shadow></value><value name="HANDLER_DRAG_PARAM_location"><shadow type="argument_reporter_custom" id="`:N1bY-c{y5%WzE7Xx+?"><mutation typename="tiles.Location"/><field name="VALUE">location</field></shadow></value><statement name="HANDLER"><block type="gameOver" id="Ci+BK@7Cf^~O!p2:#Ul="><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="win"><shadow type="toggleWinLose" id="R+{Sx8TEBZnYA`~K_0A{"><field name="win">true</field></shadow></value></block></statement></block></xml>
