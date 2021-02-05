@@ -1,5 +1,6 @@
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestOpen, function (sprite, location) {
-    mySprite = sprites.create(img`
+    tiles.setTilemap(tilemap`level2`)
+    mySprite2 = sprites.create(img`
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
@@ -19,28 +20,28 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestOpen, function (spri
         `, SpriteKind.Player)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleInsignia, function (sprite, location) {
-	
+    game.over(false)
 })
-let mySprite: Sprite = null
+let mySprite2: Sprite = null
 scene.setBackgroundColor(15)
 effects.blizzard.startScreenEffect()
-mySprite = sprites.create(img`
+let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
-    . . 5 5 5 5 . . 5 5 5 5 . . . . 
-    . . 3 3 3 3 . . 3 3 3 3 . . . . 
-    . . 5 5 5 5 . . 5 5 5 5 . . . . 
+    . . 5 5 5 5 . . . 5 5 5 5 . . . 
+    . . 3 3 3 3 . . . 3 3 3 3 . . . 
+    . . 5 5 5 5 . . . 5 5 5 5 . . . 
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
-    . . . . 3 3 3 3 3 3 . . . . . . 
-    . . . . 3 3 3 3 3 3 . . . . . . 
-    . . . . 3 3 3 3 3 3 . . . . . . 
-    . . . . 3 3 3 3 3 3 . . . . . . 
+    . . . . . . 3 3 3 . . . . . . . 
+    . . . . . . 3 3 3 . . . . . . . 
+    . . . . . . 3 3 3 . . . . . . . 
     . . . . . . . . . . . . . . . . 
-    . . 3 3 3 3 3 3 3 3 3 3 3 . . . 
-    . . 3 3 3 3 3 3 3 3 3 3 3 . . . 
-    . . 3 3 3 3 3 3 3 3 3 3 3 . . . 
+    . . 3 . . . . . . . . . 3 . . . 
+    . . 3 3 3 . . . . . 3 3 3 . . . 
+    . . . . 3 3 3 . 3 3 3 . . . . . 
+    . . . . . . 3 3 3 . . . . . . . 
     `, SpriteKind.Player)
 controller.moveSprite(mySprite, 100, 100)
 tiles.setTilemap(tilemap`level1`)
